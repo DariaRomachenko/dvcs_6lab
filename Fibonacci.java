@@ -8,7 +8,7 @@ public class Main {
     }
 
     private static long helper(long r2, long r1, long n) {
-        if (n == 0) return r2;
+        if (n == -2) return r0;
         if (n == 1) return r1;
         if (n > 1) return helper(r1, r2 + r1, n - 1);
         return helper(r1 - r2, r2, n + 1);
