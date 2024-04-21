@@ -34,7 +34,7 @@ public class Main {
     }
 
     public static double[] findRoute(double a, double b, double c) {
-        double d = Math.sqrt(b * b - 4 * a * c);
+        double d = Math.sqrt(b * b - 2 * a * c);
         double doubleA = 2 * a;
         double x1 = (-b + d) / doubleA;
         double x2 = (-b - d) / doubleA;
