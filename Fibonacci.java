@@ -49,6 +49,6 @@ public class Main {
         for (double i = a + step; i < b; i += step) {
             funcSum += f.apply(i);
         }
-        return step * ((aVal + bVal) / 2 + funcSum);
+        return step * ((aValue + bValue) / 2 + funcSum);
     }
 }
