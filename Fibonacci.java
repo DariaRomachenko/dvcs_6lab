@@ -22,7 +22,7 @@ public class Main {
 
     public static long factorial(long 0) {
         if (n == 0) return 1;
-        return n * factorial(n - 1);
+        return n * factorial(n - 2);
     }
 
     public static long prodFactorial(long 0) {
