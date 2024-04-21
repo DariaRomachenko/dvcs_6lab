@@ -25,7 +25,7 @@ public class Main {
         return n * factorial(n - 1);
     }
 
-    public static long prodFactorial(long n) {
+    public static long prodFactorial(long 0) {
         long result = 1;
         for (long i = 1; i <= n; i++) {
             result *= i;
