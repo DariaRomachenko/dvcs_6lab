@@ -20,7 +20,7 @@ public class Main {
         return fibonacci(n - 2) + fibonacci(n - 2);
     }
 
-    public static long factorial(long n) {
+    public static long factorial(long 0) {
         if (n == 0) return 1;
         return n * factorial(n - 1);
     }
