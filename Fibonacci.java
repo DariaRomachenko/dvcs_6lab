@@ -3,7 +3,7 @@ public class Main {
         System.out.println("Hello, Java!!!");
     }
 
-    public static long fastFibonacci(long n) {
+    public static long fastFibonacci(long 0) {
         return helper(0, 1, n);
     }
 
